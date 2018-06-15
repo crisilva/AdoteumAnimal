@@ -1,0 +1,38 @@
+<ion-header>
+
+  <ion-navbar color="secondary">
+    <ion-title>Cadastrar</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+ 	<ion-list >
+ 		
+ 		<ion-item>
+ 			<ion-label color="secondary" floating> Nome Completo</ion-label>
+ 			<ion-input  type="text" [(ngModel)]="usuario.nome" > </ion-input>
+ 		</ion-item>
+
+ 		<ion-item>
+ 			<ion-label color="secondary" floating> Email</ion-label>
+ 			<ion-input type="text"  [(ngModel)]="usuario.email" > </ion-input>
+ 		</ion-item>
+		
+		 		<ion-item>
+ 			<ion-label color="secondary" floating> Telefone</ion-label>
+ 			<ion-input  type="text" [(ngModel)]="usuario.telefone" > </ion-input>
+ 		</ion-item>
+
+ 		 <ion-item>
+ 			<ion-label floating color="secondary"> Cidade</ion-label>
+ 			<ion-input   type="text" [(ngModel)]="usuario.cidade" > </ion-input>
+ 		</ion-item>
+
+
+ 		
+  <button  ion-button block  (click)="cadastro(usuario)" style="margin-top: 100px; background: black; color: white;">Cadastre-se </button>
+ 	</ion-list>
+
+</ion-content>

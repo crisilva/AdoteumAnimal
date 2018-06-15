@@ -1,0 +1,32 @@
+{
+  "usuarios": [
+    {
+      "nome": "Jayne Cristina",
+      "email": "jayne@gmail.com",
+      "telefone": "(88)907187576",
+      "cidade": "Pereiro",
+      "id": 10
+    },
+    {
+      "nome": "lucia",
+      "email": "lucia@gmail.com",
+      "telefone": "88999124978",
+      "cidade": "erere",
+      "id": 11
+    },
+    {
+      "nome": "kevin ewerton silva de lima ",
+      "email": "kevinfelix.eq@gmail.com",
+      "telefone": "985638462",
+      "cidade": "Ererê CE",
+      "id": 12
+    },
+    {
+      "nome": "William",
+      "email": "william@gmail.com",
+      "telefone": "(88) 96953114",
+      "cidade": "Pereiro-CE",
+      "id": 13
+    }
+  ]
+}

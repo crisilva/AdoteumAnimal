@@ -1,0 +1,26 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>usuarios</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+<button ion-button color="primary"  (click)="home()">
+	HOME
+</button>
+
+
+<ion-list>
+       <ion-item *ngFor="let d of result">
+       <h3><b>Nome :</b> {{d.nome}}</h3>
+       <h3><b>Email: </b>{{d.email}}</h3>
+       <h3><b>Telefona:</b> {{d.telefone}}</h3>
+       <h3><b>Cidade :</b> {{d.cidade}}</h3>
+
+       </ion-item> 
+</ion-list>
+</ion-content>
